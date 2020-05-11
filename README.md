@@ -1,3 +1,3 @@
 # aws-qldb-cognito
 
-![archi](.\ressources\images\archi.jpg)
+![archi](ressources\images\archi.jpg)
