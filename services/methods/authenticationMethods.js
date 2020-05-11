@@ -1,6 +1,10 @@
 var AmazonCognitoIdentity = require('amazon-cognito-identity-js');
 const authConfig = require('../../config/authentication');
 
+var userPoolId = {
+        UserPoolId: authConfig.cognitoUserPoolId
+    };
+
 var getUserPool = () => new Promise(function(resolve, reject) {
 	var poolData = {
 			UserPoolId : authConfig.cognitoUserPoolId, 
@@ -36,6 +40,6 @@ var addToGroups = (username,role) => new Promise(function(resolve, reject) {
 
 module.exports = {
 	getUserPool,
-	confirmSignUp
-
+	confirmSignUp,
+  userPoolId
 }
