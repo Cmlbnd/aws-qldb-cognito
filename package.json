@@ -13,7 +13,7 @@
     "cognito-express": "^2.0.16",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
-    "express": "~4.16.1",
+    "express": "~4.17.3",
     "ion-js": "^3.1.2",
     "jwt-decode": "^2.2.0",
     "morgan": "~1.9.1",
